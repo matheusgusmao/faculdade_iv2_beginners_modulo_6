@@ -1,0 +1,244 @@
+    @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Open Sans', sans-serif;
+    --primary_color: rgba(5, 5, 5, 0.767);
+    --secondary_color: rgba(133, 133, 133, 0.822);
+    --tertiary_color: rgb(252, 140, 13);
+    --quaternary_color: rgb(148, 248, 169);
+    --quinary_color: rgba(0, 0, 0, 0.541);
+    --senary_color: rgba(0, 0, 0, 0.603);
+
+}
+
+body {
+    background: url("images/background.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    min-height: 500px;
+    color: white;
+}
+
+header {
+    display: flex;
+    padding: 20px;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    background-color: var(--primary_color);
+}
+
+header a {
+    background: var(--tertiary_color);
+    padding: 10px;
+    border-radius: 5px;
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    font-size: 1.3em;
+}
+
+input, button {
+    margin: 5px;
+    padding: 7px;
+    font-size: 1.3em;
+    border: none;
+    border-radius: 10px;
+    background-color: var(--secondary_color);
+    color: white;
+    font-weight: bold;
+}
+
+button {
+    background-color: var(--tertiary_color);
+}
+
+button:active {
+    background-color: var(--quaternary_color);
+}
+
+section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color: var(--quinary_color);
+    /* rgba(30, 30, 105, 0.541) */
+    width: 85%;
+    margin: auto;
+    margin-top: 10vh;
+    /* padding: 50px; */
+    border-radius: 10px;
+}
+
+section div img {
+    margin: auto;
+    width: 100px;
+}
+
+section div{
+    /* width: 600px; */
+    margin: auto;
+    /* background-color: var(--senary_color);
+    margin: 5px;
+    border-radius: 10px;
+    /* padding: 5px; */
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+section #players div{
+    /* width: 600px; */
+    height: 250px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+
+section #especific_player {
+    background: none;
+    margin: 10px;
+    padding: 10px;
+    display: flex;
+    /* display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    flex-direction: row; */
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+
+#especific_player img{
+    width: 250px;
+}
+
+/* galeria */
+
+body {
+    margin: 0;
+}
+
+* {
+    box-sizing: border-box;
+}
+  
+img {
+    vertical-align: middle;
+}
+  
+  /* Position the image container (needed to position the left and right arrows) */
+.container {
+    position: relative;
+}
+
+/* .container img {
+    width: 500px;
+    height: 500px;
+} */
+  
+  /* Hide the images by default */
+.mySlides {
+    /* width: 300px; */
+    display: none;
+    margin-bottom: 50px;
+}
+ 
+  /* Add a pointer when hovering over the thumbnail images */
+.cursor {
+    cursor: pointer;
+}
+  
+  /* Next & previous buttons */
+.prev,
+.next {
+    cursor: pointer;
+    position: absolute;
+    top: 40%;
+    width: auto;
+    padding: 16px;
+    margin-top: -50px;
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+    -webkit-user-select: none;
+}
+  
+  /* Position the "next button" to the right */
+.next {
+    right: 0;
+    border-radius: 3px 0 0 3px;
+}
+  
+  /* On hover, add a black background color with a little bit see-through */
+.prev:hover,
+.next:hover {
+    background-color: rgba(0, 0, 0, 0.8);
+}
+  
+  /* Number text (1/3 etc) */
+.numbertext {
+    color: #f2f2f2;
+    font-size: 12px;
+    padding: 8px 12px;
+    position: absolute;
+    top: 0;
+}
+  
+  /* Container for image text */
+.caption-container {
+    text-align: center;
+    background-color: #222;
+    padding: 2px 16px;
+    color: white;
+}
+
+.row {
+    display: flex;
+    flex-direction: row;
+}
+
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+  
+  /* Six columns side by side */
+.column {
+    float: left;
+    width: 16.66%;
+}
+  
+/* Add a transparency effect for thumnbail images */
+.demo {
+    opacity: 0.6;
+}
+  
+.active,
+.demo:hover {
+    opacity: 1;
+}
+
+
+/* social */
+
+#social {
+    background: none;
+    display: flex;
+    flex-direction: row;
+    padding: 10px;
+}
+
+#social img{
+    margin: 10px;
+    width: 75px;
+}
